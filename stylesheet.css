@@ -14,3 +14,24 @@ body{
   align-items: center;
   gap: 2vw
 }
+
+.menubar{
+	display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+	align-items: center;
+}
+
+.menubar a{
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 1.2vh 1.5vw;
+  font-size:1.8vw;
+  min-width: max-content;
+  transition: color 0.3s ease;
+}
+
+.menubar a:hover{
+  color: #FFFFFF;
+}
