@@ -33,5 +33,7 @@ body{
 }
 
 .menubar a:hover{
-  color: #FFCC00;
+	color: #FFCC00;
+	background-color: #000000;
+	border-radius: 0.4vw;
 }
