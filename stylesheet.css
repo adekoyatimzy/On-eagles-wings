@@ -5,8 +5,8 @@ body{
 }
 
 .menuheader{
-  background-color: #E3F2FD;
-  color: #000000;
+  background-color: #2C5282;
+  color: #ffffff;
   padding: 2.5vh 4vw;
   display: flex;
   flex-direction: row;
@@ -20,14 +20,14 @@ body{
   flex-direction: row;
   flex-wrap:nowrap;
   align-items: center;
-  border:0.15vw solid #000000
+  border:0.15vw solid #ffffff;
   padding: 0.4vh 0.6vw;
 }
 
 .menubar a{
   font-family: Arial, sans-serif;
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   padding: 1.2vh 1.5vw;
   font-size:1.8vw;
   min-width: max-content;
