@@ -16,10 +16,12 @@ body{
 }
 
 .menubar{
-	display: flex;
+  display: flex;
   flex-direction: row;
   flex-wrap:nowrap;
-	align-items: center;
+  align-items: center;
+  border:0.15vw solid #000000
+  padding: 0.4vh 0.6vw;
 }
 
 .menubar a{
