@@ -15,27 +15,36 @@ body{
   gap: 2vw
 }
 
+.menuheader h2{
+  margin: 0;
+  font-size: 4vw; 
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.05vw;          
+}
+
 .menubar{
   display: flex;
   flex-direction: row;
   flex-wrap:nowrap;
   align-items: center;
-  border:0.15vw solid #ffffff;
-  padding: 0.4vh 0.6vw;
+  gap: 1vw;
 }
 
 .menubar a{
   font-family: Arial, sans-serif;
   text-decoration: none;
   color: #ffffff;
-  padding: 1.2vh 1.5vw;
-  font-size:1.8vw;
+  font-weight: bold;
+  font-size: 1.8vw;
   min-width: max-content;
   transition: color 0.3s ease;
+  border: 0.15vw solid #ffffff
+  padding: 1vh 1.8vw;
 }
 
 .menubar a:hover{
 	color: #FFCC00;
 	background-color: #000000;
 	border-radius: 0.4vw;
+	border-color: #000000;
 }
