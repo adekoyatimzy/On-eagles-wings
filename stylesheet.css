@@ -27,7 +27,7 @@ body{
   flex-direction: row;
   flex-wrap:nowrap;
   align-items: center;
-  gap: 1vw;
+  gap: 2vw;
 }
 
 .menubar a{
@@ -46,4 +46,19 @@ body{
 	color: #FFCC00;
 	background-color: #000000;
 	border-color: #000000;
+}
+
+.footer {
+  background-color: #111111;     
+  color: #a0aec0;                
+  text-align: center;           
+  padding: 4vh 2vw;             
+  margin-top: 15vh;
+}
+
+.footer p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1.5vw;             
+  letter-spacing: 0.05vw;        
 }
